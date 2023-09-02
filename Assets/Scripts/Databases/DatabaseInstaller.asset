@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cf7b157d7885ee47ab37931438cec86, type: 3}
+  m_Name: DatabaseInstaller
+  m_EditorClassIdentifier: 
+  prefabDatabase: {fileID: 11400000, guid: 1de07c9d681505c49a6f6f7ec40133af, type: 2}
+  dialogueDatabase: {fileID: 11400000, guid: f21b2c28dc734fb47acc4391e3ed38b2, type: 2}
+  levelNameDatabase: {fileID: 11400000, guid: bea4a097be232624a944ccd41fa1ab72, type: 2}
