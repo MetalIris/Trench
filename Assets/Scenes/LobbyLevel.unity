@@ -2899,6 +2899,7 @@ MonoBehaviour:
   restartButton: {fileID: 1045152278}
   enemiesLeftPanel: {fileID: 197646373}
   levelPassedArrow: {fileID: 0}
+  levelPassedText: {fileID: 0}
   toLobby: {fileID: 0}
   enemyHead: []
   killedEnemy: {fileID: -995983602, guid: 4fa89f4496abc074b8e6c763ba2674b4, type: 3}

@@ -9,10 +9,8 @@ public class ToLobby: MonoBehaviour
     {
         if (col.CompareTag("Player"))
         {
-            // Запускаємо анімацію переходу
             _levelTransitionAnimation.LevelTransition(() =>
             {
-                // По закінченні анімації переходимо на наступний рівень
                 SceneManager.LoadScene(0);
             });
         }

@@ -14,6 +14,7 @@ public class LevelController: MonoBehaviour
     [SerializeField] private GameObject enemiesLeftPanel;
     
     [SerializeField] private GameObject levelPassedArrow;
+    [SerializeField] private GameObject levelPassedText;
     [SerializeField] private GameObject toLobby;
     
     [SerializeField] private Image[] enemyHead;
@@ -52,6 +53,7 @@ public class LevelController: MonoBehaviour
     public void OnLevelComplete()
     {
         levelPassedArrow.SetActive(true);
+        levelPassedText.SetActive(true);
         toLobby.SetActive(true);
     }
     
